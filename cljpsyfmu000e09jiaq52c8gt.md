@@ -30,7 +30,7 @@ In Linux, users and groups play essential roles in system administration and sec
 
 Remember, mastering user and group management is crucial for maintaining a secure and well-organized Linux system. 🚀🐧
 
-## 🔑 Key Insights on User Management: Linux Edition! 💡👥
+# 🔑 Key Insights on User Management: Linux Edition! 💡👥
 
 ### Here are some crucial points to know about managing users in Linux: 📌
 
@@ -52,10 +52,8 @@ Remember, mastering user and group management is crucial for maintaining a secur
     
 * Users cannot read, write or execute each other's files without permission.
     
-
-##   
-🔢👤 Types of Users: Exploring User Roles in Linux! 🚀👥
-
+    ## 🔢👤 Types of Users: Exploring User Roles in Linux! 🚀👥
+    
 * **Regular User:** 🙎‍♂️🙎‍♀️ Regular users, also known as standard users, are the most common type of users. They have limited system privileges and typically interact with the system to perform day-to-day tasks and run applications.
     
 * **Root User (Superuser):** 🧑‍💻🔑 The root user, also called the superuser, holds the highest level of administrative privileges. This user has unrestricted access to all system resources and can make critical changes to the system. However, it is important to use the root account cautiously to avoid accidental damage.
@@ -69,10 +67,9 @@ Remember, mastering user and group management is crucial for maintaining a secur
 | REGULAR | saswat, vagrant | 1000 to 60000 | 1000 to 60000 | /home/username | /bin/bash |
 | SERVICE | ftp, ssh, apache | 1 to 999 | 1 to 999 | /var/ftp etc | /sbin/nologin |
 
-#   
 💻🔧 Linux User & Group Management: Essential Commands! 🛠️👥
 
-* `cat /etc/passwd` \- the contents of the <mark>/etc/passwd</mark> file. This file is a system database that stores essential information about user accounts on the system. Below are all the system users -
+* `cat /etc/passwd` - the contents of the <mark>/etc/passwd</mark> file. This file is a system database that stores essential information about user accounts on the system. Below are all the system users -
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688498885775/bc4bb2ca-87ca-4ffe-ab7f-55644e16183a.png align="center")
     
@@ -82,20 +79,20 @@ Remember, mastering user and group management is crucial for maintaining a secur
     
     The above line has 7 columns separated by `:`
     
-    1) Username
-    
-    2) Link to the shadow file. (Shadow file will hold the password encrypted)
-    
-    3) Root ID - It is user ID. 0 for root.
-    
-    4) Group ID - It is group ID. 0 for root.
-    
-    5) Comment
-    
-    6) Home dir of the root user.
-    
-    7) Login Shell
-    
+    1. Username
+        
+    2. Link to the shadow file. (Shadow file will hold the password encrypted)
+        
+    3. Root ID - It is user ID. 0 for root.
+        
+    4. Group ID - It is group ID. 0 for root.
+        
+    5. Comment
+        
+    6. Home dir of the root user.
+        
+    7. Login Shell
+        
 * `grep vagrant /etc/passwd` - Command to search for any user ID in <mark>/etc/passwd</mark> file. E.g. Search command for vagrant user.
     
 
@@ -131,7 +128,7 @@ grep vargrant /etc/group
     
     `tail -3 /etc/passwd`
     
-    **NOTE** \- When a user gets created then a group is also created.
+    **NOTE** - When a user gets created then a group is also created.
     
 * `groupadd devops` - Creates a group named devops.
     
