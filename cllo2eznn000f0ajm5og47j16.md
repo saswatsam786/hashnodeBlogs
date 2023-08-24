@@ -1,5 +1,5 @@
 ---
-title: "🚀🌐 DevOps 1.3: Launch Your Website on Linux 🖥️🔥"
+title: "🚀🌐 DevOps 2.3: Launch Your Website on Linux 🖥️🔥"
 seoTitle: "Launch Your Website on Linux: A Step-by-Step Guide"
 seoDescription: ""Learn how to launch your website on Linux with step-by-step instructions. Get your website up and running efficiently on a Linux server. 🚀🖥️""
 datePublished: Wed Aug 23 2023 18:25:21 GMT+0000 (Coordinated Universal Time)
