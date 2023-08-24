@@ -1,5 +1,5 @@
 ---
-title: "🚀🛠️ DevOps 1.2: Provisioning in Vagrant"
+title: "🚀🛠️ DevOps 2.2: Provisioning in Vagrant"
 seoTitle: ""Streamlining Provisioning in Vagrant for Efficient Development""
 seoDescription: ""Explore Vagrant provisioning techniques in DevOps 1.2, enhancing your infrastructure setup. Learn efficient provisioning methods for seamless development.""
 datePublished: Wed Aug 23 2023 06:00:17 GMT+0000 (Coordinated Universal Time)
