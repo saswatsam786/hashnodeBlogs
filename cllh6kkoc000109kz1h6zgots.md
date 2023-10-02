@@ -25,7 +25,7 @@ So we had earlier installed a package name httpd which can be managed by the sys
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692334521215/4c524ccb-424d-4739-b63e-24d839c8ee4a.png align="center")
 
-As you can see the status is inactive. Now if you want to start the service we can use `systemctl status httpd`.
+As you can see the status is inactive. Now if you want to start the service we can use `systemctl start httpd`.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692334676115/cebf0ecb-e2b0-4615-9afe-6966afb47462.png align="center")
 
@@ -90,7 +90,7 @@ OOMPolicy=continue
 
 [Install]
 WantedBy=multi-user.target
-[root@bazinga ~]# 
+[root@bazinga ~]#
 ```
 
 # Linux Processes:
