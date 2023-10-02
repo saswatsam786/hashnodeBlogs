@@ -7,7 +7,7 @@ cuid: cln7o9wh6000309ik3woy4b5r
 slug: devops-23-launch-wordpress-template-on-ubuntu
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696177296281/2fa74110-a2f5-44f9-b5cb-53026b7e0ed7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696177355300/13fe0468-ed34-46fd-84a5-92a284fa3e6e.png
-tags: ubuntu, linux, wordpress, devops, apache
+tags: ubuntu, linux, wordpress, devops, wemakedevs
 
 ---
 
