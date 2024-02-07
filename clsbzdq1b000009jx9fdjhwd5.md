@@ -76,7 +76,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service provided by Amazon We
     
 3. Copy the example and paste it in your local terminal and replace web-dev-key.pem with the location of the key you have downloaded.
     
-    e.g. - **ssh -i /Downloads/web-dev-key.pem** [**ec2-user@ec2-35-171-28-205.compute-1.amazonaws.com**](mailto:ec2-user@ec2-35-171-28-205.compute-1.amazonaws.com)
+    e.g. - **ssh -i /Downloads/web-dev-key.pem**[**ec2-user@ec2-35-171-28-205.compute-1.amazonaws.com**](mailto:ec2-user@ec2-35-171-28-205.compute-1.amazonaws.com)
     
 4. As you can see the the httpd service is up and running.
     
@@ -86,6 +86,8 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service provided by Amazon We
     But first we have to add port 80 into our security group i.e. by editing the inbound rules.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707321607818/2ad38d54-3503-4dd8-b131-7c6fd28c50ae.png align="center")
+    
+6. Then terminate the instance to avoid unnecessary charges.
     
 
 # Conclusion:
